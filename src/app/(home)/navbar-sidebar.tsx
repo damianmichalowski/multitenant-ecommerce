@@ -45,7 +45,7 @@ export const NavbarSidebar = ({ items, open, onOpenChange }: Props) => {
               Login in
             </Link>
             <Link
-              href="/sign-in"
+              href="/sign-up"
               className="w-full text-left p-4 hover:bg-black hover:text-white flex items-center text-base font-medium transition-colors"
               onClick={() => onOpenChange(false)}
             >
